@@ -1,0 +1,5 @@
+INPUT ("./src/AndroidAccessory.o")
+INPUT ("./src/gr_sketch.o")
+INPUT ("./src/gr_sakura_libs/InstWire.o")
+INPUT ("./src/gr_common/intvect.o")
+INPUT ("./src/gr_common/lowlevel.o")

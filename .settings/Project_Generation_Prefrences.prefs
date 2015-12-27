@@ -1,0 +1,28 @@
+com.renesas.cdt.core.Assembler.option.includeFileDirectories="${workspace_loc\:/${ProjName}}\\src";
+com.renesas.cdt.core.Compiler.option.includeFileDir.1582082084="${TCINSTALL}\\lib\\gcc\\rx-elf/${GCC_VERSION}\\include";"${TCINSTALL}\\rx-elf\\include";
+com.renesas.cdt.core.Compiler.option.includeFileDir.509787887="${TCINSTALL}\\lib\\gcc\\rx-elf/${GCC_VERSION}\\include";"${TCINSTALL}\\rx-elf\\include";
+com.renesas.cdt.core.LibraryGenerator.option.enableAll=true
+com.renesas.cdt.core.LibraryGenerator.option.libraryType=Pre-Built
+com.renesas.cdt.core.LibraryGenerator.option.selectLibrary=Newlib
+com.renesas.cdt.core.Linker.option.userDefinedOptions=-e_PowerON_Reset;
+com.renesas.cdt.rx.HardwareDebug.Compiler.option.cpuType=RX600
+com.renesas.cdt.rx.HardwareDebug.Compiler.option.cpuType.88888106=RX600
+com.renesas.cdt.rx.HardwareDebug.Compiler.option.dataEndian=Little-endian data
+com.renesas.cdt.rx.HardwareDebug.Compiler.option.disableFPUInstructions=false
+com.renesas.cdt.rx.HardwareDebug.Compiler.option.genCodeForRX610=false
+com.renesas.cdt.rx.HardwareDebug.Compiler.option.generateRXas100output=false
+com.renesas.cdt.rx.HardwareDebug.Compiler.option.macroDefines=__RX_LITTLE_ENDIAN__\=1;CPPAPP;
+com.renesas.cdt.rx.HardwareDebug.Compiler.option.make64bitDouble=false
+com.renesas.cdt.rx.HardwareDebug.Linker.option.archiveLibraryFiles=m;c;gcc;stdc++;
+com.renesas.cdt.rx.HardwareDebug.Linker.option.archiveSearchDirectories.114361663="${workspace_loc\:/${ProjName}/src/gr_common/lib}";"${workspace_loc\:/${ProjName}/src/gr_sakura_libs}";"${TCINSTALL}/rx-elf/lib";"${TCINSTALL}/lib/gcc/rx-elf//${GCC_VERSION}";"${TCINSTALL}/lib/gcc/rx-elf/${GCC_VERSION}";
+com.renesas.cdt.rx.Release.Compiler.option.cpuType=RX600
+com.renesas.cdt.rx.Release.Compiler.option.cpuType.2035926546=RX600
+com.renesas.cdt.rx.Release.Compiler.option.dataEndian=Little-endian data
+com.renesas.cdt.rx.Release.Compiler.option.disableFPUInstructions=false
+com.renesas.cdt.rx.Release.Compiler.option.genCodeForRX610=false
+com.renesas.cdt.rx.Release.Compiler.option.generateRXas100output=false
+com.renesas.cdt.rx.Release.Compiler.option.macroDefines=__RX_LITTLE_ENDIAN__\=1;CPPAPP;
+com.renesas.cdt.rx.Release.Compiler.option.make64bitDouble=false
+com.renesas.cdt.rx.Release.Linker.option.archiveLibraryFiles=m;c;gcc;stdc++;
+com.renesas.cdt.rx.Release.Linker.option.archiveSearchDirectories.825028938="${TCINSTALL}\\rx-elf\\lib";"${TCINSTALL}\\lib\\gcc\\rx-elf\\\\${GCC_VERSION}";
+eclipse.preferences.version=1
